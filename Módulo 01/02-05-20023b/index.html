@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diferentes mídias</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>várias fotos diferentes para situações diferentes</h1>
+    <p>
+        pode-se alterar as imagens exibidas dependendo da situação como tamanho de telas
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="imagem grande">
+    </picture>
+    <h1>colocando audio</h1>
+    <!--<audio src="midias/atdoomsgate.mp3" controls autoplay></audio>-->
+    <h2>At Doom's Gate (2016)</h2>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midias/atdoomsgate.mp3" type="audio/mpeg">
+    </audio>
+    <p>se não rola meu caro <a href="midias/atdoomsgate.mp3" download="doom.mp3" type="audio/mpeg">baixa aqui</a></p>
+</body>
+</html>

@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+/*pode se criar variaveis em css na :root usando -- para declara-las*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: android;
+    src: url(../fontes/idroid.otf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 300px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(177, 250, 177), rgb(5, 107, 5));
+    color: white;
+    padding: 20px;
+}
+
+header > h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5em;
+}
+
+header > p{
+    text-align: center;
+    margin: auto;
+    text-indent: 0px;
+    max-width: 450px;
+    font-size: 1.2em;
+}
+
+header > nav > a{
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+header > nav > a:hover{
+    background-color: rgb(5, 107, 5);
+    color: rgb(134, 250, 215);
+    border: solid rgb(5, 107, 5);
+    border-radius: 5px;
+    transition-duration: 0.1s;
+}
+
+main{
+    background-color: white;
+    max-width: 1200px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
+}
+
+p{
+    text-indent: 20px;
+    margin: 15px 0px;
+    text-align: justify;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+    background-color: rgba(115, 238, 115, 0.5);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+strong{
+    color: darkgreen;
+}
+
+h1{
+    font-family: android;
+    color: darkgreen;
+    font-weight: normal;
+}
+
+h2{
+    font-family: android;
+    color: darkgreen;
+    background-image: linear-gradient(to right,rgba(185, 247, 185, 0.856),transparent);
+    text-indent: 5px;
+    font-weight: normal;
+}
+
+h3{
+    color: white;
+    font-size: 1em;
+    background-color: rgb(113, 170, 113);
+    border: 10px solid rgb(113, 170, 113);
+    border-radius: 15px 15px 0px 0px;
+}
+
+img{
+    width: 100%;
+}
+
+#bug{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.devil{
+    background-color: rgb(185, 247, 185);
+    border-radius: 15px;
+}
+
+ul{
+    columns: 2;
+    list-style-position: inside;
+    padding: 5px;
+    list-style-type: '\2714\00A0\00A0';
+}
+
+footer > p{
+    text-align: center;
+    color: white;
+}
+
+footer{
+    background-color: darkgreen;
+}
+
+footer p{
+    margin-bottom: 0px;
+}
+
+.vid{
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 2%;
+    position: relative;
+    padding-bottom: 50%;
+}
+
+.vid iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.extern::after{
+    content: '\00A0\1F517';
+
+}
