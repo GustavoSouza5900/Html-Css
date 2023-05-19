@@ -4,37 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>backgounds tests</title>
+    <title>backgrounds</title>
     <style>
-        .quad{
-            display: inline-block;
-            border: 1px solid darkblue;
+        .block{
+            height: 125px;
+            margin: 10px;
+            border: 1px solid black;
             border-radius: 10px;
-            width: 300px;
-            height: 300px;
+            background-image: url(imagens/wallpaper003.jpg);
         }
 
         #q1{
-            background-color: aqua;
+            background-position: left top;
         }
 
         #q2{
-            background-image: linear-gradient(to right, purple, lightblue);
+            background-position: right center;
         }
 
         #q3{
-            background-image: url(imagens/pattern001.png);
+            background-position: left bottom;
+        }
+
+        #q4{
+            background-position: center center;
+        }
+
+        #q5{
+            background-position: left right;
         }
     </style>
 </head>
 <body>
-    <div class="quad" id="q1">
+    <div class="block" id="q1">
 
     </div>
-    <div class="quad" id="q2">
+    <div class="block" id="q2">
 
     </div>
-    <div class="quad" id="q3">
+    <div class="block" id="q3">
+
+    </div>
+    <div class="block" id="q4">
+
+    </div>
+    <div class="block" id="q5">
 
     </div>
 </body>
