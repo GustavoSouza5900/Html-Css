@@ -4,26 +4,55 @@
 
 * {
     margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header{
     background-color: black;
+    text-align: center;
+    padding: 50px;
 }
 
 header h1{
     font-family: 'Passion One', cursive;
     color: white;
+    font-size: 9vw;
 }
 
 header p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
 
 pre{
     font-family: 'Sriracha' , cursive;
+    font-size: 3.5vw;
+    width: 42vw;
+    padding: 5px;
 }
 
+article{
+    height: 100%;
+    padding: 80px;
+    padding-left: 30px;
+}
+
+#a2{
+    background: rgba(0, 0, 0, 0.404) url(../imagens/background001.jpg) right center fixed;
+    background-size: cover;
+    color: white;
+}
+
+#a4{
+    background: black url(../imagens/background002.jpg) right center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.back{
+    background-color: rgba(0, 0, 0, 0.404);
+    height: 13em;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.644);
+}
 
 a{
     text-decoration: none;
@@ -38,4 +67,6 @@ a:hover{
 footer{
     color: white;
     background-color: black;
+    padding: 10px;
+    text-align: center;
 }
