@@ -27,8 +27,8 @@ header p{
 pre{
     font-family: 'Sriracha' , cursive;
     font-size: 3.5vw;
-    width: 42vw;
     padding: 5px;
+    display: inline-block;
 }
 
 section{
